@@ -1,0 +1,301 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light !important;
+}
+
+ul{
+    list-style: none;
+    margin: 0 !important;
+}
+
+a{
+    color: #293740 !important;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+/* ------------------------components------------------------- */
+
+.dark-blue{
+    color: #293740;
+}
+
+.light-blue{
+    color: #678983;
+}
+
+.green{
+    color: #378140;
+}
+
+.yellow{
+    color: #ECD662;
+}
+
+.fontsize-1{
+    font-size: 6rem !important;
+}
+
+.fontsize-2{
+    font-size: 4rem !important;
+}
+
+.fontsize-3{
+    font-size: 3.4rem !important;
+}
+
+.fontsize-4{
+    font-size: 2rem !important;
+}
+
+.fontsize-5{
+    font-size: 1.6rem !important;
+}
+
+.fontsize-6{
+    font-size: 1.8rem !important;
+}
+
+.title::after{
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+    content: '';
+    width: 8.5rem;
+    height: 0.6rem;
+    background: #C84B31;
+    border-radius: 1.5rem;
+}
+
+.cart-icon:hover{
+    color: #336839 !important;
+    transform: translateY(-1rem);
+}
+
+.yellow-hover:hover{
+    color: #BB8760 !important;
+}
+
+.light-blue-hover:hover{
+    color: #506965 !important;
+}
+
+.shadow{
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 15%);
+}
+
+.space-y{
+    margin: 9rem 0 4rem 0;
+}
+
+.transition{
+    transition: all .4s !important;
+}
+
+.ronded-1{
+    border-radius: 1.5rem !important;
+}
+
+/* ---------------------btn------------------------ */
+
+.primary-btn{
+    background-color: #C84B31;
+    box-shadow: 0 5px 15px 0 rgba(200, 75, 49, 25%);
+    width: 8.5rem;
+    height: 3rem;
+}
+
+.primary-btn:hover{
+    background-color: #b8442d;
+    box-shadow: 0 5px 15px 0 rgba(200, 75, 49, 20%);
+}
+
+.secondary-btn{
+}
+
+.add-btn{
+    background-color: #378140 !important;
+    padding: .6rem 0 !important;
+    border: none;
+    width: 16rem;
+}
+
+.add-btn:hover{
+    background: #336839 !important;
+}
+
+
+/* ------------------------header------------------------- */
+.desktop-header-container{
+    z-index: 1;
+}
+
+.desktop-header-container img{
+    width: 14rem;
+    height: 7rem;
+}
+
+/* ---------------------top bg------------------------ */
+.main-page-top-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./../Img/henry-be-lc7xcWebECc-unsplash.jpg);            
+}
+
+.about-us-top-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./../Img/Person/pexels-buro-millennial-1438072.jpg);
+}
+
+.contact-us-top-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../Img/Person/andrea.jpg);
+}
+
+.questions-top-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./../Img/pexels-pixabay-326576.jpg);
+}
+
+.bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-page-bg-title{
+    bottom: 5rem;
+    left: 3rem;
+}
+
+.about-us-top-bg h3{
+    top: 26.5rem;
+    right: 5rem;
+}
+
+/* ---------------------drop down menu------------------------ */
+/* .desktop-header-container .header-menu .header-menu-item .header-menu-item-link{
+    padding: 1.9rem 2rem;
+}
+
+.desktop-header-container .header-menu .header-menu-item .header-menu-item-link:hover{
+    color: #F5F5F5;
+    background-color: #678983;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.sub-menu ul li h6 a{
+    color: #F5F5F5;
+}
+
+.desktop-header-container .header-menu .header-menu-item:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: #678983;
+    margin-top: 1.9rem;
+}
+
+.desktop-header-container .header-menu .header-menu-item:hover .sub-menu ul{
+    display: block;
+    margin: 1rem;
+}
+
+.desktop-header-container .header-menu .header-menu-item:hover .sub-menu ul li{
+    width: 15rem;
+    padding: 1rem;
+} */
+/* ---------------------main-page-Container------------------------ */
+
+.shopping-card{
+    width: 20rem;
+    height: 32rem;
+}
+
+.shopping-card img{
+    height: 22rem;
+}
+
+.info{
+    padding: 1rem .8rem 0 .6rem;
+}
+
+.info h6{
+    height: 4rem;
+}
+
+.category-box{
+    width: 14rem;
+    height: 14rem;
+}
+
+/* ---------------------about-us-container------------------------ */
+
+.services-box{
+    height: 25rem;
+}
+
+.team-info img{
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 15%);
+}
+
+/* ---------------------footer------------------------ */
+.footer-container1{
+    height: 10.5rem;
+    margin-top: 10rem;
+}
+
+.footer-container1 img{
+    width: 22rem;
+    height: 10.5rem;
+}
+
+.footer-container2{
+    height: 26rem;
+    background-color: #678983;
+}
+
+.footer-menu{
+    width: 60%;
+}
+
+.footer-icon-container{
+    width: 10%;
+}
+
+.footer-icon-container a:hover , .footer-menu li h6 a:hover{
+    color: #293740 !important;
+}
+
+/* ---------------------book-page-container------------------------ */
+.book-container{
+    z-index: 1;
+}
+
+.book-pic img{
+    max-width: 25rem;
+    border: 15px solid #f5f5f5;
+}
+
+.book-info{
+    border-top: 1px solid #d4dad9;
+    border-bottom: 1px solid #d4dad9;
+}
+
+/* ---------------------see-all------------------------ */
+.all-book-container{
+    border: 1px solid #d4dad9;
+}
+
+.all-book-container img{
+    max-width: 20rem !important;
+}

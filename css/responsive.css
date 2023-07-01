@@ -1,0 +1,283 @@
+/* 
+.shopping-card{
+    width: 19rem;
+    height: 30rem;
+}
+
+.shopping-card img{
+    width: 18rem;
+    height: 20rem;
+}
+
+.category-box{
+    width: 14rem;
+    height: 14rem;
+}
+*/
+
+/* -------------------------1240px-------------------------- */
+@media screen and (max-width: 1239.99px){
+
+    .app{
+        max-width: 960px;
+    }
+
+    .main-page-bg-title h1{
+        font-size: 4rem;
+    }
+
+    .main-page-bg-title h3{
+        font-size: 3rem;
+    }
+
+    .book-title-container h4{
+        font-size: 3.2rem;
+    }
+
+    .shopping-card{
+        width: 18rem;
+        height: 29rem;
+    }
+    
+    .shopping-card img{
+        width: 17rem;
+        height: 19rem;
+    }
+
+    .shopping-card:last-child{
+        display: none;
+    }
+
+    .category-box{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .category-box:last-child{
+        display: none;
+    }
+
+    .footer-menu{
+        width: 100%;
+    }
+
+    .footer-icon-container{
+        width: 15%;
+    }
+}
+
+/* -------------------------992px-------------------------- */
+@media screen and (max-width: 991.99px){
+
+    .title-20px{
+        font-size: 1.9rem;
+    }
+
+    .app{
+        max-width: 720px;
+    }
+
+    .main-page-bg-title h1{
+        font-size: 3.5rem;
+    }
+
+    .main-page-bg-title h3{
+        font-size: 2.5rem;
+    }
+
+    .top-bg{
+        height: 40rem;
+    }
+    
+    .book-title-container h4{
+        font-size: 3rem;
+    }
+
+    .shopping-card{
+        width: 17rem;
+        height: 27rem;
+    }
+    
+    .shopping-card img{
+        width: 16rem;
+        height: 17rem;
+    }
+
+    .shopping-card:nth-last-child(2){
+        display: none;
+    }
+
+    .category-box{
+        width: 12rem;
+        height: 12rem;
+    }
+    
+    .category-box:nth-last-child(2){
+        display: none;
+    }
+
+    .shadow{
+        box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 15%);
+    }
+
+    
+}
+
+/* -------------------------768px-------------------------- */
+@media screen and (max-width: 767.99px){
+
+    .app{
+        max-width: 540px;
+    }
+
+    header{
+        display: none;
+    }
+
+    .phone-header{
+
+    }
+
+    .main-page-bg-title h1{
+        font-size: 3rem;
+    }
+
+    .main-page-bg-title h3{
+        font-size: 2.2rem;
+    }
+
+    .book-title-container h4{
+        font-size: 2.5rem;
+    }
+    
+    .shopping-card:nth-last-child(3){
+        display: none;
+    }
+
+    .category-box{
+        width: 11rem;
+        height: 11rem;
+    }
+    
+    .category-box:nth-last-child(3){
+        display: none;
+    }
+
+    .footer-icon-container{
+        width: 30%;
+    }
+    
+    .footer-container2 h6{
+        font-size: 1.6rem;
+    }
+
+    .space-y{
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+    }
+
+    .title:after{
+        width: 8rem;
+        height: 0.5rem;
+    }
+}
+
+/* -------------------------576px-------------------------- */
+@media screen and (max-width: 575.99px){
+
+    .app{
+        margin: 0 1rem;
+    }
+
+    .title-16px{
+        font-size: 1.2rem;
+    }
+
+    .top-bg{
+        height: 25rem;
+    }
+
+    .main-page-bg-title{
+        left: 2rem;
+    }
+
+    .main-page-bg-title h1{
+        font-size: 2.5rem;
+    }
+
+    .main-page-bg-title h3{
+        font-size: 1.8rem;
+    }
+
+    .shopping-card{
+        width: 14rem;
+        height: 24rem;
+    }
+    
+    .shopping-card img{
+        width: 13rem;
+        height: 14rem;
+    }
+
+    .shopping-card:nth-last-child(4){
+        display: none;
+    }
+    
+    .category-box:nth-last-child(4){
+        display: none;
+    }
+    
+    .book-title-container h4{
+        font-size: 2rem;
+    }
+
+    .footer-container2 h6{
+        font-size: 1.3rem;
+    }
+
+    .title:after{
+        width: 7rem;
+        height: 0.4rem;
+    }
+
+    .see-all-btn{
+        width: 7.5rem;
+        height: 2.8rem;
+        padding: 0 1rem;
+        font-size: 1.4rem;
+    }
+}
+/* -------------------------375px-------------------------- */
+@media screen and (max-width: 374.99px){
+
+    .top-bg{
+        height: 20rem;
+    }
+
+    .main-page-bg-title h1{
+        font-size: 2rem;
+    }
+
+    .main-page-bg-title h4{
+        font-size: 1.2rem;
+    }
+
+    .book-title-container h4{
+        font-size: 1.5rem;
+    }
+
+    .footer-icon-container{
+        width: 30%;
+    }
+
+    .category-box:nth-last-child(5){
+        display: none;
+    }
+
+    .see-all-btn{
+        width: 6.5rem;
+        height: 2.5rem;
+        padding: 0 1rem;
+        font-size: 1.2rem;
+    }
+}

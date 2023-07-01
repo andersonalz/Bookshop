@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="online bookshop">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Open+Sans:wght@300&family=Readex+Pro:wght@300;400&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Bookshop</title>
+</head>
+<body>
+
+  <header>
+    <nav class="desktop-header-container bg-light position-fixed top-0 w-100 d-flex">
+      <a href="#" class="bg-dark"> <img src="Img/logo.png" alt="logo"> </a>
+
+      <ul class="header-menu d-flex align-items-center me-auto">
+        <li class="header-menu-item transition pe-5"> <h6 class="fontsize-4"> <a href="#" class="transition  text-decoration-none"> Home </a></h6></li>
+        <li class="header-menu-item transition pe-5"> <h6 class="fontsize-4"> <a href="#" class="transition  text-decoration-none"> Books </a></h6>
+          <!-- <div class="sub-menu">
+            <ul>
+              <li><h6 class="fontsize-4"> <a href="#" class="sub-menu-item-link transition text-decoration-none"> Home </a></h6></li>
+              <li><h6 class="fontsize-4"> <a href="#" class="sub-menu-item-link transition text-decoration-none"> Home </a></h6></li>
+              <li><h6 class="fontsize-4"> <a href="#" class="sub-menu-item-link transition text-decoration-none"> Home </a></h6></li>
+              <li><h6 class="fontsize-4"> <a href="#" class="sub-menu-item-link transition text-decoration-none"> Home </a></h6></li>
+              <li><h6 class="fontsize-4"> <a href="#" class="sub-menu-item-link transition text-decoration-none"> Home </a></h6></li>
+            </ul>
+          </div> -->
+        </li>
+        <li class="header-menu-item transition pe-5"> <h6 class="fontsize-4"> <a href="./about us/index.html" class="transition  text-decoration-none"> About us </a></h6></li>
+        <li class="header-menu-item transition pe-5"> <h6 class="fontsize-4"> <a href="#" class="transition  text-decoration-none"> Contact us </a></h6></li>
+      </ul>
+
+      <div class="d-flex align-items-center me-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search header-icon light-blue-hover dark-blue" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart2 header-icon light-blue-hover dark-blue transition mx-4" viewBox="0 0 16 16">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+        </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person header-icon light-blue-hover dark-blue transition" viewBox="0 0 16 16">
+          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+        </svg></a>
+      </div>
+    </nav>
+
+    <nav class="phone-header-container">
+    </nav> 
+  </header>
+
+  <section class="main-page-top-bg bg w-100 vh-100 position-relative">
+    <div class="main-page-bg-title position-absolute">
+      <h1 class="fontsize-1 text-white fw-bold">Good books for your mood and mind.</h1>
+      <h3 class="fontsize-2 text-white fw-bold">Buy from us safely.</h3>
+    </div>
+  </section>
+
+<main>
+  <section class="container">
+        <!------------------------------------------first-shopping card-------------------------------------->
+    <section class="d-flex justify-content-between space-y">
+        <h4 class="title position-relative pb-3 fontsize-3 dark-blue"> The newest books </h4>
+        <a href="#" class="primary-btn d-flex align-items-center justify-content-center text-white transition text-decoration-none ronded-1 fontsize-5">See all</a>
+    </section>
+
+    <section class="d-flex justify-content-evenly">
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/sun.jpg" alt="The sun and her flowers" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5"><a href="#" class="light-blue-hover transition text-decoration-none"> The sun and her flowers </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"><a href="#"> <img src="img/Book/milk.jfif" alt="Milk  and honey" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Milk  and honey </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/friends.jpg" alt="Friends" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Friends for ever </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/little-women.jpg" alt="Little women" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Little women </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/fault.jfif" alt="The fault in our stars" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The fault in our stars </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure> 
+    </section>
+        <!------------------------------------------second-shopping card-------------------------------------->
+    <section class="d-flex justify-content-between space-y">
+      <h4 class="title position-relative pb-3 fontsize-3 dark-blue"> The best-selling books </h4>
+      <a href="#" class="primary-btn d-flex align-items-center justify-content-center text-white transition text-decoration-none ronded-1 fontsize-5">See all</a>
+    </section>
+
+    <section class="d-flex justify-content-evenly">
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/sun.jpg" alt="The sun and her flowers" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The sun and her flowers </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"><a href="#"> <img src="img/Book/milk.jfif" alt="Milk  and honey" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Milk  and honey </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/friends.jpg" alt="Friends" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Friends for ever </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/little-women.jpg" alt="Little women" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Little women </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/fault.jfif" alt="The fault in our stars" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The fault in our stars </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+    </section>
+
+        <!------------------------------------------category-------------------------------------->
+    <section class="d-flex justify-content-between space-y">
+      <h4 class="title position-relative pb-3 fontsize-3 dark-blue"> Your categories </h4>
+      <a href="#" class="primary-btn d-flex align-items-center justify-content-center text-white transition text-decoration-none ronded-1 fontsize-5">See all</a>
+    </section>
+
+    <section class="d-flex justify-content-evenly">
+      <div class="category-box bg-light d-flex flex-column align-items-center justify-content-center shadow rounded-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-emoji-laughing dark-blue" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+        </svg>
+        <h6 class="dark-blue fontsize-4"><a href="#" class="light-blue-hover transition text-decoration-none">Comedy</a></h6>
+      </div>
+
+      <div class="category-box bg-light d-flex flex-column align-items-center justify-content-center shadow rounded-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-emoji-laughing dark-blue" viewBox="0 0 16 16">
+          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+        </svg>        
+        <h6 class="dark-blue fontsize-4"><a href="#" class="light-blue-hover transition text-decoration-none">Romance</a></h6>
+      </div>
+
+      <div class="category-box bg-light d-flex flex-column align-items-center justify-content-center shadow rounded-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-emoji-laughing dark-blue" viewBox="0 0 16 16">
+          <path d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0v1.829Zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707L14 2.707ZM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707L7.293 4Zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1h1.829Zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1h1.829ZM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707L13.293 10ZM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0v1.829Zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0L8.354 9.06Z"/>
+        </svg>        
+        <h6 class="dark-blue fontsize-4"><a href="#" class="light-blue-hover transition text-decoration-none">Fantasy</a></h6>
+      </div>
+
+      <div class="category-box bg-light d-flex flex-column align-items-center justify-content-center shadow rounded-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-emoji-laughing dark-blue" viewBox="0 0 16 16">
+          <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+        </svg>        
+        <h6 class="dark-blue fontsize-4"><a href="#" class="light-blue-hover transition text-decoration-none">Psychology</a></h6>
+      </div>
+
+      <div class="category-box bg-light d-flex flex-column align-items-center justify-content-center shadow rounded-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-emoji-laughing dark-blue" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>        
+        <h6 class="dark-blue fontsize-4"><a href="#" class="light-blue-hover transition text-decoration-none">Mystery</a></h6>
+      </div>
+
+      <div class="category-box bg-light d-flex flex-column align-items-center justify-content-center shadow rounded-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-emoji-laughing dark-blue" viewBox="0 0 16 16">
+          <path d="M8 4.5a7 7 0 0 0-7 7 .5.5 0 0 1-1 0 8 8 0 1 1 16 0 .5.5 0 0 1-1 0 7 7 0 0 0-7-7zm0 2a5 5 0 0 0-5 5 .5.5 0 0 1-1 0 6 6 0 1 1 12 0 .5.5 0 0 1-1 0 5 5 0 0 0-5-5zm0 2a3 3 0 0 0-3 3 .5.5 0 0 1-1 0 4 4 0 1 1 8 0 .5.5 0 0 1-1 0 3 3 0 0 0-3-3zm0 2a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 4 0 .5.5 0 0 1-1 0 1 1 0 0 0-1-1z"/>
+        </svg>        
+        <h6 class="dark-blue fontsize-4"><a href="#" class="light-blue-hover transition text-decoration-none">Drama</a></h6>
+      </div>  
+    </section>
+
+        <!------------------------------------------third-shopping card-------------------------------------->
+    <section class="d-flex justify-content-between space-y">
+      <h4 class="title position-relative pb-3 fontsize-3 dark-blue"> The best of New York times books </h4>
+      <a href="#" class="primary-btn d-flex align-items-center justify-content-center text-white transition text-decoration-none ronded-1 fontsize-5">See all</a>
+    </section>
+
+    <section class="d-flex justify-content-evenly">
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/sun.jpg" alt="The sun and her flowers" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The sun and her flowers </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"><a href="#"> <img src="img/Book/milk.jfif" alt="Milk  and honey" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Milk  and honey </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/friends.jpg" alt="Friends" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Friends for ever </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/little-women.jpg" alt="Little women" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Little women </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/fault.jfif" alt="The fault in our stars" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The fault in our stars </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+    </section>
+
+        <!------------------------------------------fourth-shopping card-------------------------------------->
+    <section class="d-flex justify-content-between space-y">
+      <h4 class="title position-relative pb-3 fontsize-3 dark-blue"> The best books for fiction fans </h4>
+      <a href="#" class="primary-btn d-flex align-items-center justify-content-center text-white transition text-decoration-none ronded-1 fontsize-5">See all</a>
+    </section>
+
+    <section class="d-flex justify-content-evenly">
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/sun.jpg" alt="The sun and her flowers" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The sun and her flowers </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"><a href="#"> <img src="img/Book/milk.jfif" alt="Milk  and honey" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Milk  and honey </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/friends.jpg" alt="Friends" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Friends for ever </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/little-women.jpg" alt="Little women" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> Little women </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+
+      <figure class="shopping-card bg-light d-flex flex-column shadow rounded-2">
+        <a href="#"> <img src="img/Book/fault.jfif" alt="The fault in our stars" class="w-100 rounded-top"> </a>
+        <div class="info">
+          <h6 class="fontsize-5 "><a href="#" class="light-blue-hover transition text-decoration-none"> The fault in our stars </a></h6>
+          <div class="d-flex justify-content-between pt-3">
+            <h6 class="fontsize-5 light-blue ">8.9 $</h6>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-cart-fill green cart-icon transition" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>            
+            </svg>          
+          </div>
+        </div>
+      </figure>
+    </section>
+  </section>
+
+</main>
+
+        <!------------------------------------------footer-------------------------------------->
+  <footer>
+    <section class="footer-container1 bg-dark d-flex flex-column align-items-center">
+        <img src="./Img/logo.png" alt="logo">
+    </section>
+    <section class="footer-container2 d-flex flex-column align-items-center justify-content-around">
+        <ul class="footer-menu d-flex justify-content-evenly">
+          <li class="footer-menu-item"> <h6 class="fontsize-4"> <a href="#" class="transition text-decoration-none text-white"> Common questions </a></h6></li>
+          <li class="footer-menu-item"> <h6 class="fontsize-4"> <a href="#" class="transition text-decoration-none text-white"> Contact us </a></h6></li>
+          <li class="footer-menu-item"> <h6 class="fontsize-4"> <a href="./about us/index.html" class="transition text-decoration-none text-white"> About us </a></h6></li>
+          <li class="footer-menu-item"> <h6 class="fontsize-4"> <a href="#" class="transition text-decoration-none text-white"> Support </a></h6></li>
+        </ul>
+        <div class="footer-icon-container d-flex justify-content-between">
+          <a href="#" class="text-decoration-none text-white" style="font-size: 3.2rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram transition" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/> </svg> 
+          </a>
+          <a href="#" class="text-decoration-none text-white" style="font-size: 3.2rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram transition" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/> </svg>
+          </a>
+          <a href="#" class="text-decoration-none text-white" style="font-size: 3.2rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram transition" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+          </a> 
+        </div>
+        <h6 class="fontsize-4 text-white"> ©All Rights Reserved. </h6>
+    </section>
+  </footer> 
+</body>
+</html>
